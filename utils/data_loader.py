@@ -2,7 +2,7 @@ import pandas as pd
 import streamlit as st
 from pathlib import Path
 
-DATA_PATH = Path(__file__).parent.parent / "data" / "final_results_ads_hackathon.csv"
+DATA_PATH = Path(__file__).parent.parent / "data" / "result_cleaned.csv"
 
 COL_FILENAME = "Filename"
 COL_BRAND = "Brand"
